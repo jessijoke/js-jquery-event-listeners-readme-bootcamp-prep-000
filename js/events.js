@@ -11,7 +11,7 @@ function frameIt() {
     });
 }
 
-function submitIt() {
+function pressIt() {
     $('img').on('load', function() {
       $('img').addClass("tasty");
     });
