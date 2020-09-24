@@ -19,7 +19,7 @@ function pressIt() {
     });
 }
 
-function bindIt() {
+function submitIt() {
     $('img').on('load', function() {
       $('img').addClass("tasty");
     });
